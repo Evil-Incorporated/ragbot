@@ -14,17 +14,17 @@ Follow these step-by-step instructions to set up your environment, install depen
 
 * **On macOS/Linux:**
 ```bash
-curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
+  curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
 ```
 
 * **On Windows**
 ```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 * **Or, from pip**
 ```bash
-pip install uv
+  pip install uv
 ```
 
 ### Generate an NVIDIA API Key
@@ -46,7 +46,7 @@ Secure your secrets by keeping them out of your source code.
 2. Open the file in your preferred text editor and add your API key exactly like this:
 
 ```bash
-NVIDIA_API_KEY=<YOUR_NVIDIA_API_KEY_HERE>
+  NVIDIA_API_KEY=<YOUR_NVIDIA_API_KEY_HERE>
 ```
 
 ### Sync `uv` Dependencies
@@ -54,7 +54,7 @@ NVIDIA_API_KEY=<YOUR_NVIDIA_API_KEY_HERE>
 With `uv`, you don't need to manually create virtual environment folders. The `sync` command reads the project configuration, automatically builds a local `.venv` folder, and installs all required packages deterministically:
 
 ```bash
-uv sync
+  uv sync
 ```
 
 ## 🏃 Execution Guide
