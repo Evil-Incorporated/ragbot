@@ -8,7 +8,7 @@ Follow these step-by-step instructions to set up your environment, install depen
 
 ---
 
-### 1. Install `uv`
+### Install `uv`
 
 `uv` is an extremely fast Python package installer and resolver written in Rust. It replaces traditional `pip` workflows.
 
@@ -26,3 +26,14 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 ```bash
 pip install uv
 ```
+
+### Generate an NVIDIA API Key
+
+This project requires an API key to communicate with cloud-hosted NVIDIA Inference Microservices (NIM) for text embeddings and language models.
+
+1. Navigate to the official [NVIDIA API Catalog](https://build.nvidia.com/).
+2. Click **Sign In** in the top right corner. Create a free NVIDIA Developer account or log in with your existing credentials.
+3. Browse the catalog or search for your preferred model (e.g., `meta/llama-3.3-70b-instruct`).
+4. Click on the model card, then select the **Get API Key** button.
+5. Click **Generate Key** on the prompt. 
+6. **Important:** Copy the generated key immediately and save it in a secure location. It will begin with the prefix `nvapi-`. For security reasons, NVIDIA will not show this key to you again.
