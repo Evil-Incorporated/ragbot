@@ -48,3 +48,11 @@ Secure your secrets by keeping them out of your source code.
 ```bash
 NVIDIA_API_KEY=<YOUR_NVIDIA_API_KEY_HERE>
 ```
+
+### Sync `uv` Dependencies
+
+With `uv`, you don't need to manually create virtual environment folders. The `sync` command reads the project configuration, automatically builds a local `.venv` folder, and installs all required packages deterministically:
+
+```bash
+uv sync
+```
