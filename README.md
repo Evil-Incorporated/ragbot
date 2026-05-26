@@ -37,3 +37,14 @@ This project requires an API key to communicate with cloud-hosted NVIDIA Inferen
 4. Click on the model card, then select the **Get API Key** button.
 5. Click **Generate Key** on the prompt. 
 6. **Important:** Copy the generated key immediately and save it in a secure location. It will begin with the prefix `nvapi-`. For security reasons, NVIDIA will not show this key to you again.
+
+### Create a `.env` File
+
+Secure your secrets by keeping them out of your source code.
+
+1. In the root directory of this project, create a new file named `.env`.
+2. Open the file in your preferred text editor and add your API key exactly like this:
+
+```bash
+NVIDIA_API_KEY="nvapi-YOUR_ACTUAL_NVIDIA_API_KEY_HERE"
+```
