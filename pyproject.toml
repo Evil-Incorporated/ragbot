@@ -1,0 +1,12 @@
+[project]
+name = "ragbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-nvidia-ai-endpoints>=1.4.0",
+    "pypdf>=6.12.2",
+]
