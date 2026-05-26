@@ -1,4 +1,3 @@
-```markdown
 # PDF RAG Chatbot with NVIDIA NIM & UV
 
 A ultra-fast, lightweight terminal-based Retrieval-Augmented Generation (RAG) chatbot that leverages cloud-hosted NVIDIA Inference Microservices (NIM) via LangChain and uses `uv` for blistering fast Python dependency management.
