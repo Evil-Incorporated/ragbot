@@ -56,3 +56,12 @@ With `uv`, you don't need to manually create virtual environment folders. The `s
 ```bash
 uv sync
 ```
+
+## 🏃 Execution Guide
+
+Execute `main.py` using `uv run`:
+
+* **Windows (PowerShell / CMD) & macOS / Linux:**
+```bash
+  uv run main.py
+```
