@@ -46,5 +46,5 @@ Secure your secrets by keeping them out of your source code.
 2. Open the file in your preferred text editor and add your API key exactly like this:
 
 ```bash
-NVIDIA_API_KEY="nvapi-YOUR_ACTUAL_NVIDIA_API_KEY_HERE"
+NVIDIA_API_KEY=<YOUR_NVIDIA_API_KEY_HERE>
 ```
